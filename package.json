@@ -1,0 +1,18 @@
+{
+  "name": "my-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Multi Device dengan pairing code tanpa QR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "pairing-code"],
+  "author": "BaimDevelop",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "chalk": "^5.2.0",
+    "node-cache": "^5.1.2",
+    "pino": "^8.12.3"
+  }
+}
